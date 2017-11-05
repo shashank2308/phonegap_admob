@@ -12,7 +12,7 @@
     <engine name="cordova" version=">=4.0.0" />
   </engines>
 
-  <dependency id="cordova-connectivity-monitor" />
+  <framework src="com.google.android.gms:play-services-ads:+" />
 
   <js-module src="www/admob.js" name="AdMobAds">
     <clobbers target="window.admob" />
